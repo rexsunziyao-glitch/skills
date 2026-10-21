@@ -1,0 +1,21 @@
+{
+  "_note": "Fake example of a serialized CasePhotoCollection. Blobs are stored natively in IndexedDB; shown here as placeholders. Never put real patient data here.",
+  "id": "00000000-0000-4000-8000-000000000001",
+  "name": "Case A - anterior restoration (demo)",
+  "createdAt": 1760000000000,
+  "updatedAt": 1760000500000,
+  "entries": [
+    {
+      "id": "00000000-0000-4000-8000-0000000000a1",
+      "name": "before.jpg",
+      "blob": "<Blob image/jpeg>",
+      "song": { "id": 123456, "name": "Demo Song One", "artists": [{ "id": 1, "name": "Demo Artist" }], "album": { "id": 10, "name": "Demo Album", "picUrl": "" }, "durationMs": 215000 }
+    },
+    {
+      "id": "00000000-0000-4000-8000-0000000000a2",
+      "name": "after.jpg",
+      "blob": "<Blob image/jpeg>",
+      "song": null
+    }
+  ]
+}
